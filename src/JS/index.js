@@ -18,13 +18,13 @@ botaoAlterarTema.addEventListener('click', () => {
     //
     if (modoEscuroEstaAtivo){
         //body.classList.remove('modo-escuro') 
-        imagemBotaoTrocaTema.setAttribute('src', './imagens/sun.png')    
+        imagemBotaoTrocaTema.setAttribute('src', './src/imagens/sun.png')    
     }else{
         //body.classList.add('modo-escuro')
     
         //Alterando imagem do botão
         //1o Qual atributo quer aterar / 2o Qual o caminho da fonte
-        imagemBotaoTrocaTema.setAttribute('src', './imagens/moon.png')
+        imagemBotaoTrocaTema.setAttribute('src', './src/imagens/moon.png')
     }
 
    
